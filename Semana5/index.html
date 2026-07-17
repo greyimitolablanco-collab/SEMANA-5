@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Página web para probar el POST
+    <script>
+        console.log('funciona')
+          ( 'https://verbose-lamp-p77jvq7644jq2j5g-3000.app.github.dev/reporte', )
+            method :'POST',
+            Headers: {
+                'content-Type': 'application/son'
+            },
+            body: JSON.stringify({
+                mensaje: 'Tarea 5 Finalizada'
+            })
+        })
+        .then(respuesta => respuesta.json())
+        .then(datos => alert('Exito:', datos))
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>

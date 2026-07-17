@@ -1,0 +1,6 @@
+1.La ruta recibe un mensaje y lo responde 
+en un archvo json
+
+2.para recibir datos de las persona de la comunidad,
+ como solucitudes, peticiones, quejas, 
+ reclamos o cualquier tipo de mensaje
